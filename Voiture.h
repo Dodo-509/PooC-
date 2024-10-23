@@ -9,7 +9,7 @@ class Voiture {
 	
 	public : 
 		Voiture();
-		Voiture (std::string marque, std::string modele, int annee, float kilometrage, float vitesse);
+		Voiture(string marque, string modele, int annee, float kilometrage, float vitesse);
 		void accelerer (float valeur);
 		void freiner (float valeur);
 		void afficherInfo ();
@@ -22,6 +22,8 @@ class Voiture {
 		int annee;
 		float kilometrage;
 		float vitesse;
+		
+	
 };
 
 #endif
