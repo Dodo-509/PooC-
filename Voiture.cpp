@@ -43,5 +43,5 @@ void Voiture::avancer(float distance) {
 }
 
 Voiture::~Voiture() {
-	cout<<"La voiture est detruite"<<std::endl;
+	cout<<"La "<<marque<<" est detruite"<<std::endl;
 }
