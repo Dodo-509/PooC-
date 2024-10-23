@@ -11,7 +11,7 @@ Voiture::Voiture () {
 	vitesse = 0.0;
 }
 
-Voiture::Voiture(std::string marque, std::modele, int annee, float kilometrage, float vitesse) {
+Voiture::Voiture(std::string marque, std::string modele, int annee, float kilometrage, float vitesse) {
 	this->marque = marque;
 	this->modele = modele;
 	this->annee = annee;
