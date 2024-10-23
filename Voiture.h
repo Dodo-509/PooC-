@@ -1,5 +1,9 @@
 #ifndef VOITURE_H_INTERFACE
-#def VOITURE_H_INTERFACE
+#define VOITURE_H_INTERFACE
+
+#include <string>
+
+using namespace std;
 
 class Voiture {
 	
